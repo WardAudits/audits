@@ -3,7 +3,7 @@
 
 # Need more salt! — Credit Guild $2K Bounty
 
-_You can also read this writeup on [Medium](https://wardaudits.medium.com/adding-more-salt-to-credit-guilds-factory-for-2k-108d5c3f0744)._
+_You can also read this writeup on [Medium](https://wardaudits.medium.com/need-more-salt-credit-guild-2k-bounty-1404f07f1394)._
 
 A week ago we've found a medium severity vulnerability in [Ethereum Credit Guild](https://twitter.com/CreditGuild) (fka Volt Protocol). It was disclosed confidentially prior to project's launch via private bug bounty since the project has not yet launched and it will take some time before they open a BBP on Immunefi. We noticed the team's security-first approach when they offered a bonus reward of GUILD tokens for the bug we found during the Code4rena contest, which is why we did not hesitate to make a private disclosure without an intermediary platform. The team managed the process very quickly and professionally.
 

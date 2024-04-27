@@ -1,9 +1,11 @@
 
 ![](https://i.imgur.com/XUFwLJW.jpeg)
 
-# Adding More Salt to Credit Guild's Factory for $2K
+# Need more salt! — Credit Guild $2K Bounty
 
-A week ago we've found a medium severity vulnerability in [Ethereum Credit Guild](https://twitter.com/CreditGuild) (fka Volt Protocol). It was disclosed confidentially prior to project's launch via private bug bounty since the project has not yet launched and it will take some time before they open a BBP on Immunefi. We noticed the team's security-first approach after they offered a bonus reward of GUILD tokens at Code4rena for the bug we found, which is why we did not hesitate to make a private disclosure without an intermediary platform. The team managed the process very quickly and professionally.
+_You can also read this writeup on [Medium](https://wardaudits.medium.com/adding-more-salt-to-credit-guilds-factory-for-2k-108d5c3f0744)._
+
+A week ago we've found a medium severity vulnerability in [Ethereum Credit Guild](https://twitter.com/CreditGuild) (fka Volt Protocol). It was disclosed confidentially prior to project's launch via private bug bounty since the project has not yet launched and it will take some time before they open a BBP on Immunefi. We noticed the team's security-first approach when they offered a bonus reward of GUILD tokens for the bug we found during the Code4rena contest, which is why we did not hesitate to make a private disclosure without an intermediary platform. The team managed the process very quickly and professionally.
 
 Credit Guild actually [did a contest on Code4rena](https://code4rena.com/audits/2023-12-ethereum-credit-guild#top) in December 2023, but the reason this bug wasn’t reported during the contest is likely because `LendingTermFactory.sol` was not within the scope. We wanna make this a call for the Wardens reading this: If you feel good about the team, consider looking into contracts that are not in the scope (excluding unfinished contracts), note down any sussy parts and you can examine them more deeply after the contest. Now let's take a deep dive into this finding, demonstrating how deterministic contract creations can create an address collision despite how wide the parameters may be.
 

@@ -18,7 +18,7 @@ You can also request a quote on [Code4rena](https://code4rena.com/@natzuu) or [C
 
 | Project | Severity | Payout | Language | Report |
 |:--:|:--:|:--:|:--:|:--:|
-| [Credit Guild]([https://code4rena.com/audits/2024-01-renft](https://twitter.com/CreditGuild)) | Medium | $2,000.00 | Solidity |  [📄](/bug-bounties/creditguild-bounty-01.md) |
+| [Credit Guild](https://twitter.com/CreditGuild) | Medium | $2,000.00 | Solidity |  [📄](/bug-bounties/creditguild-bounty-01.md) |
 | Overall | | $2,000.00 | | |
 
 ### Code4rena
